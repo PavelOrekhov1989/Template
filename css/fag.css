@@ -1,0 +1,138 @@
+.faq__container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-image: url(/img/Background.jpg);
+    background-position: center;
+    max-width: 1600px;
+    height: 621px;
+    padding-top: 70px;
+}
+
+.faq__container-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.faq__container-text {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+
+.faq-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.faq__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 423px;
+}
+
+.faq__item {
+    margin-bottom: 21px;
+}
+
+.faq__item:last-child {
+    margin-bottom: 0;
+}
+
+.faq__input {
+    width: 423px;
+    height: 44px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: transparent;
+    padding: 0 25px;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.faq__button {
+    border-radius: 50px;
+    width: 200px;
+    height: 48px;
+    box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+    background: #15a9cb;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.faq__container-text-link {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.faq__container-link {
+    color: #4a76a8;
+}
+
+@media (max-width: 1200px) {
+
+    .faq__container-title {
+        font-size: 32px;
+    }
+
+    .faq__container-text {
+        font-size: 20px;
+    }
+
+    .faq__container-text-link {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq__container {
+        padding-top: 30px;
+        height: 398px;
+    }
+
+    .faq__input {
+
+        width: 290px;
+        height: 30px;
+    }
+
+    .faq__container-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .faq__container-text {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+
+    .faq__container-text-link {
+        font-size: 11px;
+    }
+
+    .faq__item {
+        margin-bottom: 15px;
+    }
+
+    .faq-form {
+        margin-bottom: 45px;
+    }
+
+    .faq__button {
+        margin-bottom: 30px;
+    }
+}

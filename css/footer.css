@@ -1,0 +1,116 @@
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    height: 158px;
+    background-color: #2f324b;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo-img {
+    margin-right: 19px;
+}
+
+.footer__logo-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.40625;
+    color: #fff;
+    align-self: center;
+}
+
+.container__footer-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.40625;
+    color: #fff;
+}
+
+.footer__button {
+    width: 24px;
+    height: 24px;
+}
+
+@media (min-width: 1600px) {
+    .footer-autor {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .footer__logo-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .container__footer-text {
+        opacity: 0.5;
+    }
+
+    .logo__item-tel {
+        font-size: 21px;
+    }
+
+    .logo-item-link {
+        font-size: 13px;
+    }
+
+    .footer-autor {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .container__footer-text-none {
+        display: none;
+    }
+
+    .footer__button {
+        width: 24px;
+        height: 24px;
+        background-image: url(/img/Phone.svg);
+    }
+
+    .footer__logo-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .faq__input {
+        font-size: 14px;
+    }
+
+    .footer__logo-text {
+        font-size: 8px;
+    }
+
+    .container-footer {
+        align-items: center;
+        height: 80px;
+        background-color: #2f324b;
+    }
+
+    .footer-autor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 47px;
+        background-color: #2a2c3f;
+    }
+
+    .footer-autor-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.40625;
+        color: #fff;
+        opacity: 0.5;
+    }
+}
