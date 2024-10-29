@@ -76,7 +76,7 @@
     .footer__button {
         width: 24px;
         height: 24px;
-        background-image: url(/img/Phone.svg);
+        background-image: url(../img/Phone.svg);
     }
 
     .footer__logo-img {

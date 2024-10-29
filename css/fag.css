@@ -3,7 +3,7 @@
     flex-direction: column;
 
     align-items: center;
-    background-image: url(/img/Background.jpg);
+    background-image: url(../img/Background.jpg);
     background-position: center;
     max-width: 1600px;
     height: 621px;
